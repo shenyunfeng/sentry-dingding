@@ -25,7 +25,7 @@ setup(
     ],
     entry_points={
         'sentry.plugins': [
-            'sentry_dingding = sentry_dingding.plugin:DingDingPlugin'
+            'sentry_dingding = sentry_plugins.sentry_dingding.plugin:DingDingPlugin'
         ]
     },
     classifiers=[
