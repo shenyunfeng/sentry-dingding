@@ -9,7 +9,7 @@ setup(
     version='0.0.2',
     author='ansheng',
     author_email='ianshengme@gmail.com',
-    url='https://github.com/anshengme/sentry-dingding',
+    url='https://github.com/shenyunfeng/sentry-dingding',
     description='A Sentry extension which send errors stats to DingDing',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -20,7 +20,7 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages('src'),
     install_requires=[
-        'sentry>=9.0.0',
+        'sentry>=8.17.0',
         'requests',
     ],
     entry_points={
