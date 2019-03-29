@@ -24,8 +24,11 @@ setup(
         'requests',
     ],
     entry_points={
+        'sentry.apps': [
+            'sentry_dingding = sentry_dingding',
+        ],
         'sentry.plugins': [
-            'sentry_dingding = sentry_plugins.sentry_dingding.plugin:DingDingPlugin'
+            'sentry_dingding = sentry_dingding.plugin:DingDingPlugin'
         ]
     },
     classifiers=[
